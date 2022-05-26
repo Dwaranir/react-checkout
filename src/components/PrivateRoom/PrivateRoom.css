@@ -137,8 +137,12 @@
 }
 
 .Room__container {
+  width: 327px;
+  height: 114px;
   background: #ffffff;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-shadow: 2px 4px 14px rgba(77, 82, 91, 0.27);
   border-radius: 8px;
 }
@@ -149,10 +153,10 @@
   align-items: center;
   width: 280px;
   height: 54px;
-  margin: 22px 21px 28px 25px;
+  margin: 27px 21px 28px 25px;
 }
 .Room__square {
-  width: 59px;
+  min-width: 59px;
   height: 59px;
 
   background: #e34a4e;
@@ -161,15 +165,15 @@
 }
 
 .NewRoom__square {
-  width: 59px;
+  min-width: 59px;
   height: 59px;
-
-  background: #d7d7d7;
-  border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
+
+  background: #d7d7d7;
+  border-radius: 7px;
 }
 
 .NewRoom__btn-label {
