@@ -35,6 +35,13 @@
   margin-bottom: 65px;
 }
 
+::placeholder {
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #c0c0c0;
+  margin-bottom: 65px;
+}
+
 .PrivateRoom__url-broadcast-container {
   display: flex;
   flex-direction: column;
@@ -66,7 +73,7 @@
 
   letter-spacing: 0.01em;
   padding-left: 65px;
-  color: #c0c0c0;
+  color: #4d525b;
 }
 
 .PrivateRoom__url-input:focus {

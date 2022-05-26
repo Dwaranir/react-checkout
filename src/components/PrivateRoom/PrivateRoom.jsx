@@ -15,13 +15,14 @@ const PrivateRoom = () => {
       <span className="PrivateRoom__url-label">
         Скопируйте ссылку, чтобы пригласить
       </span>
+
       <div className="PrivateRoom__url-broadcast-container">
         <div className="PrivateRoom__url-container">
           <input
             className="PrivateRoom__url-input"
             type="url"
-            label="https://conference.name.room#12345
-"
+            label="https://conference.name.room#12345"
+            placeholder="https://conference.name.room#12345"
           />
           <UrlIcon className="Url__icon" />
           <button className="PrivateRoom__copy-url-btn">
