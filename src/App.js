@@ -1,9 +1,10 @@
+import PrivateRoom from "./components/PrivateRoom";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi Universe</h1>
+      <PrivateRoom />
     </div>
   );
 }
