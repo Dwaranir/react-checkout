@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ReactComponent as UrlIcon } from "../svg/icon_url.svg";
+import { ReactComponent as UrlIcon } from "../../svg/icon_url.svg";
 import "./PrivateRoom.css";
 
 const PrivateRoom = () => {
@@ -44,9 +44,7 @@ const PrivateRoom = () => {
           <div className="Room__information">
             <div className="Room__square"></div>
             <div className="Room__tittle-description">
-              <p classname="Room__name">
-                <strong>Личная комната</strong>
-              </p>
+              <p className="Room__title">Личная комната</p>
               <p className="Room__description">
                 Описание комнаты или комментарий
               </p>
@@ -62,10 +60,8 @@ const PrivateRoom = () => {
         <div className="Room__container">
           <div className="Room__information">
             <div className="Room__square"></div>
-            <div className="Room__tittle-description">
-              <p classname="Room__name">
-                <strong>Корпоративная комната</strong>
-              </p>
+            <div className="Room__title-description">
+              <p className="Room__title">Корпоративная комната</p>
               <p className="Room__description">
                 Описание комнаты или комментарий
               </p>
@@ -84,9 +80,7 @@ const PrivateRoom = () => {
               <span className="NewRoom__btn-label">+</span>
             </div>
             <div className="Room__tittle-description">
-              <p classname="Room__name">
-                <strong>Создать новую комнату</strong>
-              </p>
+              <p className="Room__title">Создать новую комнату</p>
             </div>
             <div className="Room__circles">
               <p className="Room__circle"></p>

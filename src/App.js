@@ -1,4 +1,4 @@
-import PrivateRoom from "./components/PrivateRoom";
+import PrivateRoom from "./components/PrivateRoom/PrivateRoom";
 import "./App.css";
 
 function App() {
